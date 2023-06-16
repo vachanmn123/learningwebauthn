@@ -13,6 +13,11 @@ export default function Home() {
           Login
         </button>
       </Link>
+      <Link href="/register">
+        <button className="p-3 rounded-md py-1.5 block bg-blue-600">
+          Register
+        </button>
+      </Link>
     </main>
   );
 }
