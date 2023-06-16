@@ -12,8 +12,7 @@ export default function Home() {
         <button className="p-3 rounded-md py-1.5 block bg-blue-600">
           Login
         </button>
-        </Link>
-      </a>
+      </Link>
     </main>
   );
 }
