@@ -51,7 +51,7 @@ export default function Register({ challenge }) {
         rp: {
           // These are seen by the authenticator when selecting which key to use
           name: "WebAuthn Demo",
-          id: "localhost",
+          id: router.hostname,
         },
         user: {
           // You can choose any id you please, as long as it is unique
