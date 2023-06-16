@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@github/webauthn-json": "^2.1.1",
+    "@simplewebauthn/server": "^7.3.0",
     "autoprefixer": "10.4.14",
+    "bcrypt": "^5.1.0",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
+    "iron-session": "^6.3.1",
+    "mongoose": "^7.2.4",
     "next": "13.4.5",
     "postcss": "8.4.24",
     "react": "18.2.0",
